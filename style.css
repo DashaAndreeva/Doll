@@ -1,5 +1,6 @@
 body {
   font-family: "Kodchasan", sans-serif;
+  color: #000;
 }
 
 ul {
@@ -43,6 +44,40 @@ address {
   margin: 0 auto;
 }
 
+/* HEADER */
 .header {
+  padding: 15px 0 15px 0;
   background-color: aqua;
+}
+
+.header-content {
+  display: flex;
+}
+
+.logo-link {
+  display: flex;
+}
+
+.logo-text {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header-links {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.btn-card {
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  height: 50px;
 }
