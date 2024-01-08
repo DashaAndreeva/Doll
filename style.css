@@ -47,7 +47,7 @@ address {
 /* HEADER */
 .header {
   padding: 15px 0 15px 0;
-  background-color: aqua;
+  background-color: #bff9fd;
 }
 
 .header-content {
@@ -65,6 +65,10 @@ address {
   line-height: normal;
 }
 
+nav {
+  display: flex;
+}
+
 .header-links {
   display: flex;
   margin-left: auto;
@@ -73,11 +77,46 @@ address {
 .header-navigation {
   display: flex;
   align-items: center;
+  gap: 75px;
+}
+
+.navigation-item {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.is-active {
+  color: #3d86c3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navigation-item:hover,
+.navigation-item:focus {
+  color: #3d86c3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-card {
+  position: relative;
+  margin-left: 75px;
+  margin-right: 10px;
   background-color: transparent;
   border: none;
   width: 50px;
   height: 50px;
+}
+
+.order {
+  position: absolute;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8fdfd;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
