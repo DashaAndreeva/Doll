@@ -39,8 +39,10 @@ address {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 0 auto;
 }
 
@@ -110,7 +112,7 @@ nav {
 
 .order {
   position: absolute;
-  right: 5px;
+  right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -124,5 +126,113 @@ nav {
 /* MAIN */
 
 main {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url(./img/bcg.jpg);
+}
+
+.hero-title {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1050px;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.wrapp-hero {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background: #bff9fd;
+  width: 1000px;
+  height: 600px;
+  box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+}
+
+.hero-svg-new {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: -4%;
+  right: -2%;
+  fill: none;
+  stroke: #0569de;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  border: none;
+  background-color: #7cedf5;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.back {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.hero-link {
+}
+.hero-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 500px;
+}
+.hero-new {
+}
+.hero-text-one {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 1050px;
+  margin-bottom: 30px;
+}
+
+.hero-text-two {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 1050px;
+}
+
+.hero-span-link {
+}
+.hero-text-link {
+  color: #0569de;
+  text-decoration: underline;
 }
