@@ -236,3 +236,42 @@ main {
   color: #0569de;
   text-decoration: underline;
 }
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  background-color: #bff9fd;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-contecst {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.footer-item {
+  display: flex;
+  align-items: center;
+}
+.footer-link {
+}
+.footer-svg {
+}
+.footer-icon {
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
