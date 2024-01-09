@@ -242,8 +242,8 @@ main {
 footer {
   display: flex;
   background-color: #bff9fd;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-contecst {
