@@ -262,7 +262,13 @@ footer {
 }
 .footer-link {
 }
+
 .footer-svg {
+  transition: fill 500ms 100ms ease;
+}
+.footer-svg:hover,
+.footer-svg:focus {
+  fill: #0569de;
 }
 .footer-icon {
 }
